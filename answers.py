@@ -36,3 +36,4 @@ calculate_classes(59)
 calculate_classes(87)  
 calculate_classes(123)  
 calculate_classes(21)  
+
