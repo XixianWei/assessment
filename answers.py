@@ -5,10 +5,10 @@
 # ● "isogram"
 # ● "uncopyrightable" ● “ambidextrously”
 def is_isogram(word):
+    if not isinstance(word, str):
+        raise ValueError('Your input need to be a string.')
     word = word.lower()  
-    return len(word) == len(set(word))  
+    return len(word) == len(set(word)) 
 
-print(is_isogram("uncopyrightable"))  
-print(is_isogram("ambidextrously"))  
-print(is_isogram("aabbcc"))  
+
 
